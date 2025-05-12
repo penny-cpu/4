@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>傩面具五官组合器</title>
+  <link rel="stylesheet" href="./css/style.css"/>
+</head>
+<body>
+  <h1>傩面具五官自由组合</h1>
+  <div class="container">
+    <div class="mask-view">
+      <img id="head" src="./assets/10头.png" />
+      <img id="eyes" src="./assets/10眼.png" />
+      <img id="nose" src="./assets/10鼻.png" />
+      <img id="mouth" src="./assets/10嘴.png" />
+    </div>
+    <div class="controls">
+      <button onclick="changePart('head')">换头</button>
+      <button onclick="changePart('eyes')">换眼</button>
+      <button onclick="changePart('nose')">换鼻</button>
+      <button onclick="changePart('mouth')">换嘴</button>
+    </div>
+  </div>
+  <script src="./js/script.js"></script>
+</body>
+</html>
